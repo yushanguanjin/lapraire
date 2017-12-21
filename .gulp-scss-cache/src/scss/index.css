@@ -1,0 +1,47 @@
+.box {
+  width: 11.111111rem;
+  height: 11.111111rem;
+  background: red; }
+
+html, body {
+  height: 100%;
+  overflow: hidden; }
+
+.wrap {
+  position: relative;
+  height: 100%; }
+  .wrap .header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%; }
+    .wrap .header .top {
+      height: 3.583333rem;
+      background: black;
+      padding: .777778rem 1.472222rem .944444rem 1.444444rem; }
+      .wrap .header .top .logo {
+        width: 5.638889rem;
+        height: 1.916667rem;
+        float: left; }
+        .wrap .header .top .logo h2 {
+          margin-bottom: 0; }
+          .wrap .header .top .logo h2 a {
+            display: block;
+            text-indent: -99999px;
+            background: url(../imgs/logo.png) no-repeat;
+            background-size: 5.638889rem 1.916667rem; }
+      .wrap .header .top .search {
+        width: 1.611111rem;
+        height: 1.527778rem;
+        background: url(../imgs/search.png) no-repeat;
+        background-size: 1.527778rem 1.5rem;
+        margin-right: 1.333333rem; }
+      .wrap .header .top .loginBtn {
+        float: right;
+        font-size: 1.083333rem;
+        color: #fff;
+        margin-top: .555556rem; }
+  .wrap .footer {
+    position: absolute; }
+
+/*# sourceMappingURL=index.css.map */

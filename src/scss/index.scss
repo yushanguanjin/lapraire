@@ -1,0 +1,69 @@
+@function p2r($args) { @return ($args/36)*1rem}
+
+.box{
+    width: 11.111111rem;
+    height:11.111111rem;
+    background: red;
+}
+
+html,body{
+    height: 100%;
+    overflow: hidden;
+}
+
+.wrap{
+    position: relative;
+    height: 100%;
+
+    .header{
+        position: absolute;               
+        left: 0;
+        top: 0;
+        width: 100%;
+        
+        .top{
+            height: 3.583333rem;
+            background: rgb(0,0,0);
+            padding: .777778rem 1.472222rem .944444rem 1.444444rem;
+
+            .logo{
+                width: 5.638889rem;
+                height:1.916667rem;
+                // height: 6.25rem;
+                float: left;
+
+                h2{
+                    margin-bottom: 0;
+
+                    a{
+                        display: block;
+                        text-indent: -99999px;
+                        background: url(../imgs/logo.png) no-repeat;
+                        background-size: 5.638889rem 1.916667rem;
+                    }
+                }
+            }
+
+            .search{
+                width: 1.611111rem;
+                height: 1.527778rem;
+                background: url(../imgs/search.png) no-repeat;
+                background-size: 1.527778rem 1.5rem;
+                margin-right: 1.333333rem;
+            }
+            .loginBtn{
+                float: right;
+                font-size: 1.083333rem;
+                color: #fff;
+                margin-top: .555556rem;
+
+            }
+        }
+    }
+    .footer{
+        position: absolute;
+    }
+    .content{
+        
+    }
+}
