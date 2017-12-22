@@ -9,4 +9,5 @@ ul, li {
 
 a {
   text-decoration: none;
-  color: #ffffff; }
+  color: #ffffff;
+  padding: 0; }
